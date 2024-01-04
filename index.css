@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 90%;
+    background-image: linear-gradient(-20deg, #fdc5b5 0%, #ef6351 100%);
+}
+
+/* ------ top picture, name, short description ------ */
+.top{
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+.photo{
+    margin: 20px;
+}
+
+.photo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #fafafa;
+}
+
+/* for all the links*/
+.socials{ /* container that holds links*/ 
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #fafafa;
+    height: 50px;
+    width: 90%;
+    border-radius: 15px;
+    margin: 7px;
+    padding: 10px;
+    cursor:pointer;
+    transition: background-color 0.4s, color 0.4s;
+    box-shadow: 2px 4px 8px rgba(190, 190, 190, 0.2);
+    
+}
+.link a{
+    text-decoration: none;
+    color:#fafafa; 
+}
+.link:hover{
+    background-color: #fafafa;
+}
+.link:hover a{
+    color: black;
+}
+.link:hover .link-icon{
+    color: black;
+}
+
+.link-icon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: white;
+    width: 20%;
+}
+
+.text{
+    width: 80%;
+    font-size: 20px;
+}
+
+/* ------ social media icons/links ------ */
+
+.icon-links ion-icon{
+    width: 30px;
+    height: 30px;
+}
+.icon-links{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.icon{
+    margin:  5px 15px;
+}
+
+.icon a{
+    color: #fafafa;
+}
+.icon a:hover{
+    color: black;
+}
