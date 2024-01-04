@@ -10,7 +10,7 @@ body{
     background-image: linear-gradient(-20deg, #fdc5b5 0%, #ef6351 100%);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 150vh;
 }
 
 /* ------ top picture, name, short description ------ */
