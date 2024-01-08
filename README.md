@@ -1,5 +1,5 @@
 # Linktree
-I created my own LinkTree from scratch using HTML, CSS, and JS.
+I created my own LinkTree from scratch using HTML and CSS. <br>
 A LinkTree is a website that allows the creator to have all of their important links in one place so that users can quickly find the website they need.
 
 # What is in my LinkTree?
